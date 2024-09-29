@@ -1,4 +1,5 @@
 import './App.css';
+import InlineStyledDiv from './components/InlineStyle';
 import MyComponent from './components/MyComponent';
 import MyFunctionalComponent from './components/MyFunctionalComponent';
 import ParentComponent from './components/nestedComponents/ParentComponent';
@@ -10,6 +11,7 @@ function App() {
       <MyComponent />
       <MyFunctionalComponent />
       <ParentComponent />
+      <InlineStyledDiv />
     </div>
   );
 }
