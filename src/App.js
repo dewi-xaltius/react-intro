@@ -3,8 +3,10 @@ import Button from './components/Button';
 import ButtonStyled from './components/ButtonStyled';
 import ConditionalComponent from './components/ConditionalComponent';
 import ConditionalRendering from './components/ConditionalRendering';
+import Counter from './components/Counter';
 import DisplayData from './components/DisplayData';
 import DisplayList from './components/DisplayList';
+import Event from './components/Event';
 import FruitsList from './components/FruitList';
 import InlineStyledDiv from './components/InlineStyle';
 import MyComponent from './components/MyComponent';
@@ -28,6 +30,8 @@ function App() {
       <ConditionalComponent />
       <ConditionalComponent isAdmin={true}/>
       <FruitsList />
+      <Event />
+      <Counter />
     </div>
   );
 }
