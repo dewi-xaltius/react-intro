@@ -12,6 +12,7 @@ import InlineStyledDiv from './components/InlineStyle';
 import MyComponent from './components/MyComponent';
 import MyFunctionalComponent from './components/MyFunctionalComponent';
 import ParentComponent from './components/nestedComponents/ParentComponent';
+import Greeting from './components/Greeting';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
       <FruitsList />
       <Event />
       <Counter />
+      <Greeting 
+        name="John"
+        message="Welcome to My app!"/>
     </div>
   );
 }
